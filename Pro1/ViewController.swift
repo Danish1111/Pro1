@@ -7,16 +7,16 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+public class ViewController: UIViewController {
 
-    override func viewDidLoad() {
+   public override func viewDidLoad() {
         super.viewDidLoad()
     }
     
-    override func viewDidAppear(_ animated: Bool) {
-        let storyboard = UIStoryboard(name: "Main", bundle: nil)
-        let secondViewController = storyboard.instantiateViewController(withIdentifier: "loginController") as! LoginController
-        self.present(secondViewController, animated: true, completion: nil)
+    public override func viewDidAppear(_ animated: Bool) {
+//        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+//        let secondViewController = storyboard.instantiateViewController(withIdentifier: "loginController") as! LoginController
+        self.present(Utils.open(), animated: true, completion: nil)
 
     }
 
