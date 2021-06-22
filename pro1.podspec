@@ -5,7 +5,7 @@ s.platform = :ios
 s.ios.deployment_target = '13.0'
 s.summary      = "Very Good Libary"
 s.requires_arc = true
-s.version = "0.1.0"
+s.version = "0.1.1"
 s.license = { :type => "MIT", :file => "LICENSE" }
 s.author  = { "Danish" => "danish.itm@gmail.com" }
 s.homepage = "https://github.com/Danish1111/Pro1"

@@ -16,7 +16,7 @@ public class ViewController: UIViewController {
     public override func viewDidAppear(_ animated: Bool) {
 //        let storyboard = UIStoryboard(name: "Main", bundle: nil)
 //        let secondViewController = storyboard.instantiateViewController(withIdentifier: "loginController") as! LoginController
-        self.present(Utils.open(), animated: true, completion: nil)
+        self.present(Utils.openNew(), animated: true, completion: nil)
 
     }
 

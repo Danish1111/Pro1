@@ -17,6 +17,14 @@ import UIKit
         let mas = storyboard.instantiateViewController(withIdentifier: "loginController") as! LoginController
                 return mas
         }
+    
+    
+    public static func openNew() -> UIViewController{
+        
+        let storyboard = UIStoryboard(name: "New", bundle: nil)
+        let mas = storyboard.instantiateViewController(withIdentifier: "newViewController") as! NewViewController
+                return mas
+        }
 
         
     }

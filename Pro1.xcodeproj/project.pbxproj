@@ -17,6 +17,8 @@
 		1CD45E64267B64D9003CE15E /* Pro1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD45E63267B64D9003CE15E /* Pro1UITests.swift */; };
 		1CD45E72267B656F003CE15E /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD45E71267B656F003CE15E /* LoginController.swift */; };
 		1CD45F0026812F9B003CE15E /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD45EFF26812F9B003CE15E /* Utils.swift */; };
+		1CD45F3E2681BB9C003CE15E /* New.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CD45F3D2681BB9C003CE15E /* New.storyboard */; };
+		1CD45F402681BBF7003CE15E /* NewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD45F3F2681BBF7003CE15E /* NewViewController.swift */; };
 		77F1BB79B40C1C763D9A01FA /* Pods_Pro1_Pro1UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A56CD39C6414290FA47EF39 /* Pods_Pro1_Pro1UITests.framework */; };
 		7CD507C7B4EAF69F704A23A3 /* Pods_Pro1Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 702FC8403477347EB2AD359D /* Pods_Pro1Tests.framework */; };
 		F61D1478557BD5E5B806B63B /* Pods_Pro1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B2879339C6B1547F57E1E25 /* Pods_Pro1.framework */; };
@@ -57,6 +59,8 @@
 		1CD45E65267B64D9003CE15E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1CD45E71267B656F003CE15E /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
 		1CD45EFF26812F9B003CE15E /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		1CD45F3D2681BB9C003CE15E /* New.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = New.storyboard; sourceTree = "<group>"; };
+		1CD45F3F2681BBF7003CE15E /* NewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewViewController.swift; sourceTree = "<group>"; };
 		2700D0AFA943B09AF10BC87B /* Pods-Pro1-Pro1UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pro1-Pro1UITests.release.xcconfig"; path = "Target Support Files/Pods-Pro1-Pro1UITests/Pods-Pro1-Pro1UITests.release.xcconfig"; sourceTree = "<group>"; };
 		4B2879339C6B1547F57E1E25 /* Pods_Pro1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pro1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A56CD39C6414290FA47EF39 /* Pods_Pro1_Pro1UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pro1_Pro1UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -129,6 +133,8 @@
 				1CD45E4C267B64D8003CE15E /* LaunchScreen.storyboard */,
 				1CD45E4F267B64D8003CE15E /* Info.plist */,
 				1CD45E71267B656F003CE15E /* LoginController.swift */,
+				1CD45F3D2681BB9C003CE15E /* New.storyboard */,
+				1CD45F3F2681BBF7003CE15E /* NewViewController.swift */,
 			);
 			path = Pro1;
 			sourceTree = "<group>";
@@ -285,6 +291,7 @@
 				1CD45E4E267B64D8003CE15E /* LaunchScreen.storyboard in Resources */,
 				1CD45E4B267B64D8003CE15E /* Assets.xcassets in Resources */,
 				1CD45E49267B64D6003CE15E /* Main.storyboard in Resources */,
+				1CD45F3E2681BB9C003CE15E /* New.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,6 +422,7 @@
 				1CD45F0026812F9B003CE15E /* Utils.swift in Sources */,
 				1CD45E46267B64D6003CE15E /* ViewController.swift in Sources */,
 				1CD45E72267B656F003CE15E /* LoginController.swift in Sources */,
+				1CD45F402681BBF7003CE15E /* NewViewController.swift in Sources */,
 				1CD45E42267B64D6003CE15E /* AppDelegate.swift in Sources */,
 				1CD45E44267B64D6003CE15E /* SceneDelegate.swift in Sources */,
 			);
